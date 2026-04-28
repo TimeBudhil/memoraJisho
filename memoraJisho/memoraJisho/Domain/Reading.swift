@@ -26,3 +26,4 @@ struct Reading: FetchableRecord, Hashable {
         info     = row["info"]
     }
 }
+
