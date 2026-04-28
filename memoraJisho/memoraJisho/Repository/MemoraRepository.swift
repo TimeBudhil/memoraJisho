@@ -8,4 +8,4 @@
 class MemoraRepository: Jishoable {
     
 }
-x
+

@@ -6,7 +6,7 @@
 //
 
 //top of tree
-struct KanjiDetail: Identifiable, Hashable {
+struct KanjiDTO: Identifiable, Hashable {
     let character: KanjiCharacter
     let pitchAccents: [PitchAccent]
     let radicals: [String]          // component characters from kanji_radicals

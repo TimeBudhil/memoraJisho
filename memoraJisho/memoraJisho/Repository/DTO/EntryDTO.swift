@@ -6,7 +6,7 @@
 //
 
 //top of tree
-struct EntryDetail: Identifiable, Hashable {
+struct EntryDTO: Identifiable, Hashable {
     let entry: Entry
     let kanjiforms: [EntryKanji]
     let readings: [(Reading, [PitchAccent])]
